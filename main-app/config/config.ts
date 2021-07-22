@@ -57,6 +57,18 @@ export default defineConfig({
               microApp: 'sub-app-1',
             },
             {
+              name: 'vue',
+              icon: 'smile',
+              path: '/vue',
+              microApp: 'vue',
+            },
+            {
+              name: 'vue2',
+              icon: 'smile',
+              path: '/vue2',
+              microApp: 'vue2',
+            },
+            {
               component: './404',
             },
           ],
@@ -89,6 +101,14 @@ export default defineConfig({
           name: 'sub-app-1',
           entry: '//localhost:8001',
         },
+        {
+          name: 'vue',
+          entry: '//localhost:8002',
+        },
+        {
+          name:'vue2',
+          entry:'//localhost:8003'
+        }
       ],
     },
   },
